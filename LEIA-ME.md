@@ -32,11 +32,15 @@ código-fonte oficial e releases oficiais dos próprios projetos —
 
 ## 📥 Instalação
 
-1. Baixe o conteúdo deste repositório.
-2. Copie **tudo** pra raiz do cartão SD, mesclando com o que já existir
-   (sobrescrever é esperado).
-3. Injete `hekate_ctcaer_6.5.3.bin` via RCM.
-4. No menu do Hekate, escolha a entrada `Atmosphere (emuMMC)` ou
+1. Baixe a versão mais recente na aba
+   **[Releases](https://github.com/BLTEC/NX8/releases/latest)**.
+2. Extraia o `.zip` baixado.
+3. Copie o conteúdo extraído pra **raiz do cartão SD**, mesclando com o
+   que já existir (sobrescrever é esperado).
+4. Ligue o console normalmente — se o seu Switch já tem **modchip**
+   (picofly, hwfly, etc), ele injeta o CFW sozinho no boot, sem precisar
+   de RCM manual.
+5. No menu do Hekate, escolha a entrada `Atmosphere (emuMMC)` ou
    `Sistema Original (Stock)`.
 
 ---
