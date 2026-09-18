@@ -1,0 +1,27 @@
+# DNS MITM: bloqueia servidores da Nintendo (telemetria, contas, eShop,
+# jogos online) para evitar deteccao/ban do console modificado, mantendo o
+# restante da internet funcionando normalmente.
+#
+# Fonte: guia oficial da comunidade NH Switch Guide
+# https://switch.hacks.guide/extras/blocking_nintendo
+#
+# IMPORTANTE: isso bloqueia eShop e jogos online tambem (nao so telemetria).
+# Aplica-se somente ao boot via emuMMC (arquivo emummc.txt).
+#
+# As duas entradas abaixo respondem com um servidor real (nao 127.0.0.1)
+# para o teste de conectividade da Nintendo, para o console continuar
+# mostrando "conectado a internet" normalmente no System Settings.
+157.230.80.146 *ctest.cdn.nintendo.net *conntest.nintendowifi.net
+
+127.0.0.1 *nintendoswitch.cn *nintendoswitch.com.cn *nintendoswitch.com
+127.0.0.1 *nintendo.pl *nintendo.ch *nintendo.se *nintendo.co.za *nintendo.ru
+127.0.0.1 *nintendo.pt *nintendo.no *nintendo.nl *nintendo.it *nintendo.hu
+127.0.0.1 *nintendo.gr *nintendo.fr *nintendo.fi *nintendo.de *nintendo.dk
+127.0.0.1 *nintendods.cz *nintendo.be *nintendo.at *nintendo.co.nz
+127.0.0.1 *nintendo.com.au *nintendo.com.hk *nintendo.tw *nintendo.co.kr
+127.0.0.1 *nintendo.es *nintendowifi.net *nintendo-europe.com
+127.0.0.1 *nintendo.co.uk *nintendo.co.jp *nintendo.jp *nintendo.net
+127.0.0.1 *nintendo.com
+
+# Telemetria (ja bloqueada por padrao pelo Atmosphere, mantida explicita)
+127.0.0.1 receive-%.er.srv.nintendo.net receive-%.dg.srv.nintendo.net
