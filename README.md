@@ -4,7 +4,7 @@
 
 ![Atmosphère](https://img.shields.io/badge/Atmosph%C3%A8re-1.11.2-blue)
 ![Hekate](https://img.shields.io/badge/Hekate-6.5.3-orange)
-![Firmware](https://img.shields.io/badge/Firmware-20.3.0-green)
+![Firmware](https://img.shields.io/badge/Firmware-22.5.0-green)
 
 **🇧🇷 Leia em português: [LEIA-ME.md](LEIA-ME.md)**
 
